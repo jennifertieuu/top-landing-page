@@ -80,3 +80,32 @@ a {
     padding: 5px 24px;
     border: none;
 }
+
+/* Image Section */
+#image-section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.image-box {
+    border: 1px solid blue;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    margin: 15px;
+}
+

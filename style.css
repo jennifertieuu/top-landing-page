@@ -81,11 +81,10 @@ a {
     border: none;
 }
 
-/* Image Section */
+/* --- Image Section --- */
 #image-section {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     height: 30vh;
 }

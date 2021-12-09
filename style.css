@@ -101,17 +101,19 @@ a {
     align-items: center;
     width: 15%;
 }
+
+.image-box, .text-container {
+    width: 120px;
+}
 .image-box {
     border: 3px solid #3882F6;
     border-radius: 8px;
-    width: 120px;
     height: 120px;
 }
 
 .text-container {
     font-size: small;
     text-align: center;
-    width: 120px;
 }
 
 

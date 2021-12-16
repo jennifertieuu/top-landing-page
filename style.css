@@ -86,13 +86,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30vh;
+    margin-bottom: 5%;
 }
 
 .images {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 80%;
 }
 
 .image-container {
@@ -103,12 +103,12 @@ a {
 }
 
 .image-box, .text-container {
-    width: 120px;
+    width: 135px;
 }
 .image-box {
     border: 3px solid #3882F6;
     border-radius: 8px;
-    height: 120px;
+    height: 135px;
 }
 
 .text-container {
@@ -116,5 +116,31 @@ a {
     text-align: center;
 }
 
+/* --- Quote Section --- */
+#quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quote, .quote-author {
+    width: 50%;
+    margin: 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+}
 
 

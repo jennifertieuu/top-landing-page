@@ -143,4 +143,57 @@ a {
     text-align: right;
 }
 
+/* --- Call To Action Section --- */
 
+#cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.left-cta p {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.cta-text {
+    font-weight: bold;
+}
+
+.right-cta {
+    margin-left: 100px;
+}
+
+.right-cta button {
+    background-color: #3882F6;
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 5px 24px;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+}
+
+
+/* --- Footer --- */
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: small;
+    padding: 15px;
+}
